@@ -1,5 +1,5 @@
 function creatPixels() {
-    let divMotherPixel = document.querySelectorAll("pixel-board");
+    let divMotherPixel = document.getElementById("pixel-board");
     
    for (let i = 0; i < 25; i =+ 1) {
     let divPixels = document.createElement("div");
@@ -7,4 +7,4 @@ function creatPixels() {
     divMotherPixel.appendChild(divPixels);
    } 
 }
-console.log(creatPixels);
+console.log(creatPixels());
