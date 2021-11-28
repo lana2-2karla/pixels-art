@@ -1,0 +1,25 @@
+.color{
+    border: solid black 1px;
+    display: inline;
+  }
+
+#black {
+    background-color: black;
+    margin: 5px;
+}
+
+#brown {
+    background-color: brown;
+    margin: 5px;
+}
+
+#violet {
+    background-color: indigo;
+    margin: 5px;
+}
+
+#yellow {
+    background-color: yellow;
+    margin: 5px;
+}
+
