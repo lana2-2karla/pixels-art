@@ -8,3 +8,7 @@ function creatPixels() {
    } 
 }
 console.log(creatPixels());
+
+//function (params) {
+    
+//}
