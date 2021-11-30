@@ -7,8 +7,17 @@ function creatPixels() {
     divMotherPixel.appendChild(divPixels);
    } 
 }
-console.log(creatPixels());
+creatPixels();
 
-//function (params) {
+
+let divMotherPalette = document.getElementById("color-palette");
+divMotherPalette.addEventListener("click", addSelected);
+
+function addSelected(event) {
+    let classSelected = document.querySelector(".selected");
+    if (classSelected) {
+        classSelected.classList.remove("selected");
+    }
+    event.target.classList.add("selected");
     
-//}
+}
