@@ -1,38 +1,37 @@
-.color{
-    border: solid black 1px;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-  }
-
-#black {
-    background-color: black;
-    margin: 5px;
-}
-
-#brown {
-    background-color: brown;
-    margin: 5px;
-}
-
-#violet {
-    background-color: indigo;
-    margin: 5px;
-}
-
-#yellow {
-    background-color: yellow;
-    margin: 5px;
-}
-
 #pixel-board {
     background-color: white;
     width: 210px;  
 }
 .pixel {
     background-color: white;
-    width: 40px;
+    /* width = largura e height = altura */
+    width: 40px; 
     height: 40px;
     border: solid black 1px;
     display: inline-block;
 }
+
+.color{
+    border: solid black 1px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.black {
+    background-color: black;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.violet {
+    background-color: indigo;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
